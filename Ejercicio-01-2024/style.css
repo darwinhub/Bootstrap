@@ -1,0 +1,107 @@
+/*Index*/
+/*Inicio*/
+
+
+.History{
+    text-align: center;
+}
+/*Blog*/
+.Blog{
+    text-align: center;
+    margin-bottom: 10%;
+    font-family: none;
+    font-size: 30px;
+}
+.card{
+    margin-left: 70px;
+}
+/*Gallery*/
+.carousel-inner{
+    display: flex;
+}
+.galle{
+    background-color: #333;
+}
+
+.w-100 {
+    display: flex;
+    width: 70% !important;
+    height: 50%;
+}
+.carousel-inner img{
+    width:70%;
+}
+
+/*Direccion*/
+
+.Direccion{
+    text-align: center;
+}
+/*Estadio*/
+.estady{
+    background-color: #333;
+}
+/*Forms*/
+/* Agregar borde sombreado al formulario */
+form {
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 50%; /* Ajustar el ancho del formulario */
+    margin: 40px auto; /* Centrar el formulario en la página */
+    background-color: #f9f9f9; /* Agregar un fondo claro al formulario */
+  }
+  
+  /* Ajustar el tamaño y posición de los elementos del formulario */
+  form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  form button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  form button[type="reset"] {
+    background-color: #ccc;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+/*Footer*/
+  .foot {
+    text-align: center;
+  }
+  .foo{
+    text-align: center;
+  }
+  .foott{
+    text-align: center;
+  }
+  
+  .footContact{
+    text-align: center;
+  }
+  .footGaler{
+    text-align: center;
+  }
+  .footDireccion{
+    text-align: center;
+  }
+  .footEstadios{
+    text-align: center;
+  }

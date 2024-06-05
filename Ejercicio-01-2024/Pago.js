@@ -17,9 +17,9 @@ function processPayment() {
 
 //Forma de pago -Pasa que si no rellenamos un campo me aparecera una alerta indicando que (Rellena todos los campos del formulario)
 function compra() {
-  let titularTarjeta = document.getElementById("card-holder").value;
-  let numeroTarjeta = document.getElementById("card-number").value;
-  let fechaExpiracion = document.getElementById("expiration-date").value;
+  let titularTarjeta = document.getElementById("Titular-tarjeta").value;
+  let numeroTarjeta = document.getElementById("Numero-tarjeta").value;
+  let fechaExpiracion = document.getElementById("Dato-expedicion").value;
   let cvv = document.getElementById("cvv").value;
 
   if (titularTarjeta === "" || numeroTarjeta === "" || fechaExpiracion === "" || cvv === "") {

@@ -15,6 +15,13 @@
 .card{
     margin-left: 70px;
 }
+.card:hover  {
+  background-color: rgb(237, 229, 229);
+  color: black;
+   img{
+    transform: scale(0.9);
+  }
+}
 /*Gallery*/
 .h1{
   text-align: center;

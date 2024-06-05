@@ -16,6 +16,12 @@
     margin-left: 70px;
 }
 /*Gallery*/
+.h1{
+  text-align: center;
+  margin-bottom: 10%;
+  font-family: none;
+  font-size: 30px;
+}
 .carousel-inner{
     display: flex;
 }

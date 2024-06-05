@@ -41,24 +41,24 @@
     <form id="payment-form">
       <div class="form-group">
         <label for="card-number">Número de tarjeta</label>
-        <input type="text" class="form-control" id="card-number" placeholder="Número de tarjeta">
+        <input type="text" class="form-control" id="card-number" placeholder="Número de tarjeta" required>
       </div>
       <div class="form-group">
         <label for="card-holder">Titular de la tarjeta</label>
-        <input type="text" class="form-control" id="card-holder" placeholder="Titular de la tarjeta">
+        <input type="text" class="form-control" id="card-holder" placeholder="Titular de la tarjeta" required>
       </div>
       <div class="form-group">
         <label for="expiration-date">Fecha de expiración</label>
-        <input type="text" class="form-control" id="expiration-date" placeholder="Fecha de expiración">
+        <input type="text" class="form-control" id="expiration-date" placeholder="Fecha de expiración" required>
       </div>
       <div class="form-group">
         <label for="cvv">CVV</label>
-        <input type="text" class="form-control" id="cvv" placeholder="CVV">
+        <input type="text" class="form-control" id="cvv" placeholder="CVV" required>
       </div>
       <form>
         <!-- Campos del formulario -->
         <div class="d-grid gap-2">
-          <button class="btn btn-primary" type="submit" onclick="processPayment()">Pagar</button>
+          <button class="btn btn-primary" type="submit" onclick="compra()" >Pagar</button>
           <button class="btn btn-secondary" type="reset">Cancelar</button>
         </div>
       </form>
